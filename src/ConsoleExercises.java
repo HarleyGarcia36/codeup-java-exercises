@@ -39,17 +39,17 @@ public class ConsoleExercises {
             Scanner input = new Scanner(System.in);
 
             System.out.println("What do you think the area/perimeter of the class room is?");
-            System.out.println("Enter a length");
+            System.out.println("Enter a length(sq/ft)");
             int length = input.nextInt();
 
-            System.out.println("Enter a width");
+            System.out.println("Enter a width(sq/ft)");
             int width = input.nextInt();
 
             int area = length * width;
             int perimeter = (length * 2) + (width * 2);
 
-            System.out.printf("The area of the class room is: %d.%n", area);
-            System.out.printf("The perimeter of the class room is: %d.%n", perimeter);
+            System.out.printf("The area of the class room is: %d sq/ft.%n", area);
+            System.out.printf("The perimeter of the class room is: %d sq/ft.%n", perimeter);
 
         }
     }
