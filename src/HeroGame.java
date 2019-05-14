@@ -40,7 +40,7 @@ public class HeroGame {
         System.out.println("So you decided to investigate the bushes, here's why you shouldn't have");
         System.out.println("From behind the bushes a grizzly bear awakens and looks directly at you");
         System.out.println("what do you wish to do?");
-        System.out.println("1: Attack the bear and pray a miracle happens");
+        System.out.println("1: Attack the bear");
         System.out.println("2: Run");
 
         int choice2 = scanner2.nextInt();
@@ -63,12 +63,11 @@ public class HeroGame {
     public static void noRunning() {
         System.out.println("You can't outrun a bear in 1848");
         System.out.println("You are attacked and slain by the bear");
-        System.out.printf("R.I.P");
+        System.out.println("R.I.P");
     }
 
     public static void madeItHome() {
         System.out.println("You make it home safe, and all is well.");
     }
-
 
 }
