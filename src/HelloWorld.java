@@ -9,7 +9,7 @@ public class HelloWorld {
             System.out.println(myFavoriteNumber);
         }
         {
-            String myString = "ok den";
+            String myString = "nvm";
             System.out.println(myString);
         }
         {
@@ -38,6 +38,14 @@ public class HelloWorld {
             int five = x / y;
             int negEight = y - x;
             System.out.println(five);
+        }
+        {
+            char myFavoriteLetter = 'H';
+            System.out.println(myFavoriteLetter);
+        }
+        {
+            boolean yes = true;
+            System.out.println(yes);
         }
         }
 }
