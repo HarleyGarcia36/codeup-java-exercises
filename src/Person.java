@@ -24,8 +24,8 @@ public class Person {
         harley.sayHello();
     }
 
-
 // Exercise 2 understanding references
+
 //    public static void main(String[] args) {
 //        Person person1 = new Person("John");
 //        Person person2 = person1;
