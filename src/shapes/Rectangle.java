@@ -22,4 +22,3 @@ public class Rectangle extends Quadrilateral implements Measurable {
         return this.length * this.width;
     }
 }
-

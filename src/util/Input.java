@@ -42,17 +42,18 @@ public class Input {
             System.out.print("Invalid Input, Try Again: ");
             return getInt();
         }
+
     }
 
-    public int getInt(boolean promt) {
-        System.out.print("Enter an integer: ");
-        return getInt();
-    }
-
-    public int getInt(String promt) {
-        System.out.print(promt);
-        return getInt();
-    }
+//    public int getInt(boolean promt) {
+//        System.out.print("Enter an integer: ");
+//        return getInt();
+//    }
+//
+//    public int getInt(String promt) {
+//        System.out.print(promt);
+//        return getInt();
+//    }
 
     public int getInt(int min, int max) {
         int n = getInt();
@@ -79,15 +80,15 @@ public class Input {
         }
     }
 
-    public double getDouble(boolean prompt) {
-        System.out.print("Enter A Double: ");
-        return getDouble();
-    }
+//    public double getDouble(boolean prompt) {
+//        System.out.print("Enter A Double: ");
+//        return getDouble();
+//    }
 
-    public double getDouble(String prompt) {
-        System.out.print(prompt);
-        return getDouble();
-    }
+//    public double getDouble(String prompt) {
+//        System.out.print(prompt);
+//        return getDouble();
+//    }
 
     public double getDouble(double min, double max) {
         double n = getDouble();
